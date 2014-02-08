@@ -13,7 +13,9 @@ public class whileValue {
    public static void main(String[] args) {
    		int valorActual = 0;
 		int a;
+
    		System.out.println(args[0]);
+
 		a=Integer.parseInt(args[0].toString());
 		
 		if (a>valorActual)

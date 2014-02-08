@@ -22,6 +22,7 @@ public class rangeSum {
 	   	  System.out.print(a+" ");			
 		}
 	}
+
 	else if(a<b)
 	{
 		while(a+1<b)

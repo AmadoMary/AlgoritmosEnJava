@@ -19,7 +19,6 @@ public class oddEven {
 		{
    			System.out.println("numero es par");
 		}
-
    		// si el numero es par
 		else
 		{

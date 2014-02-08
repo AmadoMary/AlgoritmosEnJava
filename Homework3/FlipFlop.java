@@ -3,7 +3,6 @@ Introduccion a la computacion y programacion 1 seccion B
 Laboratorio, algoritmos en java
 
 Complete el algoritmo:
-
 Se ingresara un numero, el programa debe iterar desde cero hasta ese numero y mostrar el mensaje
 Flip si el numero es divisible dentro de 3
 Flop si el numero es divisible dentro de 5
@@ -25,20 +24,17 @@ public class FlipFlop {
 			{
 				System.out.println("FlipFlop");
 			}
-	 	
    			// si el numero es divisible dentro de 3 imprima "Flip"
 			else if (numeroActual%3==0 && numeroActual%5!=0)
 			{
 				System.out.println("Flip");
 			}
-   		
 			// si el numero es divisible dentro de 5 imprima "Flop"
 			else if (numeroActual%5==0 && numeroActual%3!=0)
 			{		
 				System.out.println("Flop");
 			}
-		   			
-			// de lo contrario, imprima el numero
+		   	// de lo contrario, imprima el numero
 			else
 			{      		
 			System.out.println(numeroActual);

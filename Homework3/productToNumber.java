@@ -26,8 +26,7 @@ public class productToNumber {
 				resultado=resultado*a;
 				System.out.print(a+"x");
 				a--;	
-			}
-		
+			}	
 		System.out.print("="+resultado);
 		}
    }
