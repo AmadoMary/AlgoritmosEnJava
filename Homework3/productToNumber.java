@@ -17,15 +17,19 @@ public class productToNumber {
    public static void main(String[] args) {
    		int resultado = 1;
 		int a;
-   		System.out.println(args[0]);
 		a=Integer.parseInt(args[0].toString());
-		while (a != 0)
-		{
-			resultado=resultado*a;
-			a--;
-		}
-   		System.out.println("el producto es: "+resultado);
 		
+		if(resultado>=1)
+		{
+			while (a != 0)
+			{
+				resultado=resultado*a;
+				System.out.print(a+"x");
+				a--;	
+			}
+		
+		System.out.print("="+resultado);
+		}
    }
 
 }
